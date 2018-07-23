@@ -7,7 +7,7 @@ The motivation behind this module is to be able to write WebSocket based librari
 ## Install
 
 ```bash
-npm install --save html5-websocket
+npm install --save @ont-community/html5-websocket
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save html5-websocket
 The API is the same as the standard HTML5 Socket API so nothing new here...
 
 ```javascript
-const WebSocket = require('html5-websocket');
+const WebSocket = require('@ont-community/html5-websocket');
 
 const ws = new WebSocket('ws://html5rocks.websocket.org/echo');
 
